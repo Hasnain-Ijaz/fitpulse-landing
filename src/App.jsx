@@ -162,6 +162,7 @@ export default function App() {
       </section>
 
       <section id="reviews" className="mx-auto grid max-w-6xl gap-5 px-5 pb-20 md:grid-cols-3">
+        <p className="text-xs font-extrabold tracking-[0.25em] text-lime-brand md:col-span-3">SAMPLE REVIEWS</p>
         {reviews.map(([q, n, c]) => (
           <div key={n} className="rounded-3xl border border-neutral-800 bg-neutral-900 p-7">
             <p className="tracking-widest text-lime-brand">★★★★★</p>
