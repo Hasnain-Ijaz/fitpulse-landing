@@ -15,4 +15,4 @@ npm run dev
 npm run build
 ```
 
-Deploy the project on Vercel or Netlify (build command: `npm run build`, output folder: `dist`).
+Deployed on GitHub Pages.
